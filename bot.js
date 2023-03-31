@@ -1,6 +1,6 @@
 javascript
-const Telegraf = require('telegraf');
-const bot = new Telegraf('6008668981:AAE-GMnCqmITBohOVJ2o3AN8hzYjvPqnjTA');
+var Telegraf = require('telegraf');
+var bot = new Telegraf('6008668981:AAE-GMnCqmITBohOVJ2o3AN8hzYjvPqnjTA');
 
 bot.start((ctx) => ctx.reply('Привет! Я бот на Telegram!'));
 
